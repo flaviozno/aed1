@@ -1,3 +1,6 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
 int main(){
     float x[2];
     float x2[2] = {0, 0};

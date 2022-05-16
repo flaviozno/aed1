@@ -1,3 +1,6 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
 int main(){
     float people[3];
     float premio = 0, amount[3], totalAmount;
