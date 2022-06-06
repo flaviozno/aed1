@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/flaviozno/Documents/aed1/LAB04'
+gcc main.c ponto.c ponto.h -o app -lm
+make: Leaving directory '/home/flaviozno/Documents/aed1/LAB04'
+ 
