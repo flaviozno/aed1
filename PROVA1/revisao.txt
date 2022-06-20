@@ -108,3 +108,13 @@ Vantagens:
 Desvantagens:
 	Definição previa do tamanho
 	Ruim de inserir/remover elemntos entre outros
+	
+Lista Dinâmica Encadeada
+Vantagens:
+	Melhor utilização da memória
+	não precisa movimentar elementos inserção e remoção
+	
+Desvantagens:
+	Acesso indireto aos elementos
+	Precisa percorrer a lista para acessar elemento (não é um array)
+
