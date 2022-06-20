@@ -1,0 +1,110 @@
+Programa: Estrutura de dados + algoritmo
+
+Estrutura de dados: uma forma lógica de organizar os dados. Um relocionamento.
+algoritmo: instruições, açoes a serem executadas sob os dados.
+
+TAD: Tipo Abstrato de Dado.
+É um a forma de definir um novo tipo de dado e as operações que o manipulam. IDEIA CENTRAL: esconder (encapsular) de quem usa o TAD a forma que ele foi implementado.
+
+Vantagens de utilizar um TAD:
+ - segurança dos dados
+ - encapsulamento
+ - reutilização 
+ - flexibilização
+
+Definindo um TAD:
+ - Cabeçalho: 
+    Nome: lista linear
+    Dados: int
+    Operações: insere
+ - Especificação das operações:
+    Entrada: 
+    Pre-condição:
+    Processo:
+    Saída:
+    Pós-condição:
+
+Lista Lineares
+ - Agrupar dados sequenciamente
+ - Disciplina de acesso -> não possui
+ - Criterio de ordenação -> | Ordenado
+                            | Não Ordenado
+ - Formas de alocação -> Estática X Dinámica
+                        ✔ Simplicidade de implementação                  ✔ uso otimizado da memória
+                        🚫 definir um tamanho da lista (SUPER ou SUB)    🚫 programas mais complexos
+
+Formas de Acesso
+ - Sequencial -> ✔ acesso direto ao e-nezimo elemento 
+                🚫 inserir e remover poder resuoltar em deslocamento
+                
+- Encadeada -> ✔ inserir e remover não precisa deslisar
+               🚫 precesa percorrer a lista
+
+Estatica Sequencial
+
+Dinamica Encadeada
+
+Custo Computacional
+ - Lista estatica sequencial
+   - criar_lista: O(1)
+   - lista_vazia: O(1)
+   - lista_cheia: O(1)
+   - remover_elemento: O(n)
+   - remover_todas_ocorrencias: O(n^2)
+   - remover_pares: O(n^2)
+   - menor: O(n)
+   - ordenar_lista: O(nlogn) -> O(n^3) *não é tao importante
+   - tamanho: O(1)
+   - concatecar: O(n)
+
+ - Lista dinamica Encadeada
+   - criar_lista: O(1)
+   - lista_vazia: O(1)
+   - lista_cheia: não tem né padrin
+   - remover_elemento: O(n)
+   - remover_todas_ocorrencias: O(n)
+   - remover_pares: O(n)
+   - menor: O(n)
+   - ordenar_lista: O(nlogn) -> O(n^2)
+   - tamanho: O(n)
+   - concatecar: O(n)
+
+Lista estatica sequencial 
+    typedef struct lista *Lista;
+    int insere(Lista lst, int elemento)
+
+int main(){
+    int a = 5;
+    Lista l;
+    l = cria_lista();
+    ...
+    insere(l, a);
+}
+
+Lista dinamica
+ L -> null
+ typedef struct lista *Lista;
+ insere(Lista *lst, int elemento){
+    NOVO = (lista) malloc (sizeof(struct lista));
+    NOVO -> info = elemento
+    NOVO -> prox = *lst;
+    *lst = NOVO;
+ }
+
+ int main(){
+    int a = 5;
+    Lista l;
+    l = cria_lista8();
+    insere(&l, a);
+ }
+ 
+
+Lista Estática Sequencial (ARRAY)
+Vantagens: 
+	Acesso rapido e direto aos elementos
+	Tempo constante
+	Facilidade de modificar informações
+
+Desvantagens:
+	Definição previa do tamanho
+	Ruim de inserir/remover elemntos entre outros
