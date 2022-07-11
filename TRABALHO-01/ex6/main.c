@@ -55,11 +55,11 @@ int main()
         // Inserir elemento
         case 2:
             printf("Deseja inserir na lista 1 ou 3: \n");
-            scanf(" %d", &lista);
+            scanf("%d", &lista);
             ind = lista - 1;
             printf("\nQual o elemento que deseja inserir: ");
             scanf(" %d", &elem);
-            if (insere_elem(&listas[lista], elem) == 0)
+            if (insere_elem(&listas[ind], elem) == 0)
                 printf("Nao foi possivel inserir o elemento!");
             else
                 printf("Elemento inserido!");
