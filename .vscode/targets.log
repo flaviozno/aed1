@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jun 20 15:48:10 2022
+# Make data base, printed on Mon Jul 11 20:53:31 2022
 
 # Variables
 
@@ -28,8 +26,6 @@ XDG_SESSION_CLASS = user
 SNAP_COMMON = /var/snap/code/common
 # environment
 XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # automatic
@@ -45,13 +41,13 @@ CURDIR := /home/flaviozno/Documents/aed1
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/99
+SNAP_DATA = /var/snap/code/100
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:59404
+JOURNAL_STREAM = 8:47098
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -75,21 +71,17 @@ MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
 XDG_DATA_DIRS = /usr/share/ubuntu:/home/flaviozno/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=9d6af78427fa5a757f3b413362b0bd39
-# environment
-VSCODE_VERBOSE_LOGGING = true
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=36096b3e402673ab9e7900e162cc5389
 # environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 1781
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-5fa84dfc-ab70-411b-8b75-339b4d0d5bc7.sock
+MANAGERPID = 1716
 # environment
 LC_NAME = pt_BR.UTF-8
 # environment
 VSCODE_CWD = /home/flaviozno/Documents/aed1
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/100/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -99,27 +91,25 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/flaviozno:@/tmp/.ICE-unix/2131,unix/flaviozno:/tmp/.ICE-unix/2131
+SESSION_MANAGER = local/flaviozno:@/tmp/.ICE-unix/2086,unix/flaviozno:/tmp/.ICE-unix/2086
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/flaviozno/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/99
+SNAP = /snap/code/100
 # environment
-SNAP_VERSION = 30d9c6cd
+SNAP_VERSION = 92d25e35
 # environment
 XDG_MENU_PREFIX = gnome-
-# environment
-VSCODE_LOG_STACK = false
 # environment
 DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 46dfda56b3ac41b2b63400e29a6d2a64
+INVOCATION_ID = 51ab2a44c1fa45a08467922231d49a67
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/100/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -135,15 +125,13 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
 DISPLAY = :0
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 SNAP_INSTANCE_KEY = 
 # environment
 PWD = /home/flaviozno/Documents/aed1
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2077
+SSH_AGENT_PID = 2043
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -155,7 +143,7 @@ HOME = /home/flaviozno
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/flaviozno/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/flaviozno/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
 # environment
 LOGNAME = flaviozno
 # environment
@@ -189,7 +177,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/flaviozno/snap/code/99
+SNAP_USER_DATA = /home/flaviozno/snap/code/100
 # environment
 SHLVL = 1
 # environment
@@ -199,7 +187,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = flaviozno
 # environment
-SNAP_REVISION = 99
+SNAP_REVISION = 100
 # environment
 LC_MONETARY = pt_BR.UTF-8
 # makefile
@@ -223,7 +211,7 @@ OLDPWD = /home/flaviozno/Documents/aed1
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-16f43b8c-1.68.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-16f43b8c-1.69.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -261,11 +249,11 @@ LC_ALL = C
 # environment
 DBUS_STARTER_BUS_TYPE = session
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/c2174754_c867_4c0e_987c_c04483e26ed8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/787fcbd8_1267_4a98_81df_3b75db54dc6d
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.750
+GNOME_TERMINAL_SERVICE = :1.2846
 # default
 SUFFIXES := 
 # environment
@@ -289,12 +277,11 @@ TERM = xterm-256color
 # environment
 ANDROID_HOME = /home/flaviozno/Android/Sdk
 # environment
-VSCODE_PID = 15188
+VSCODE_PID = 95705
 # environment
- 
-DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=9d6af78427fa5a757f3b413362b0bd39
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=36096b3e402673ab9e7900e162cc5389
 # variable set hash-table stats:
-# Load=140/1024=14%, Rehash=0, Collisions=23/162=14%
+# Load=135/1024=13%, Rehash=0, Collisions=23/157=15%
 
 # Pattern-specific Variable Values
 
@@ -302,13 +289,16 @@ DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=9d6af78427fa5a757f3b413
 
 # Directories
 
-# . (device 66310, inode 6866242): 8 files, no impossibilities.
+# . (device 66310, inode 6866242): 13 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
+
+ 
+make: *** No rule to make target 'all'.  Stop.
 
 # Files
 
@@ -354,12 +344,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 128 B / avg = 8 B
-# current buf: size = 8162 B / used = 128 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 165 B / avg = 7 B
+# current buf: size = 8162 B / used = 165 B / count = 21 / avg = 7 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 24 / hit rate = 12%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Mon Jun 20 15:48:10 2022
+# Load=21/8192=0%, Rehash=0, Collisions=1/24=4%
+# Finished Make data base on Mon Jul 11 20:53:31 2022
 
  
